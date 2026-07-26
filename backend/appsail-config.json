@@ -1,0 +1,32 @@
+{
+  "apps": [
+    {
+      "name": "crimex-frontend",
+      "source": "../frontend",
+      "runtime": "nodejs",
+      "build": {
+        "install": "npm ci",
+        "build": "npm run build",
+        "start": "npm run start"
+      },
+      "env": {
+        "NODE_ENV": "production",
+        "FRONTEND_URL": "https://your-frontend.example.com"
+      }
+    },
+    {
+      "name": "crimex-backend",
+      "source": "./",
+      "runtime": "python",
+      "pythonVersion": "3.11",
+      "build": {
+        "install": "python -m pip install --upgrade pip setuptools wheel && pip install --prefer-binary -r requirements.txt",
+        "start": "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+      },
+      "env": {
+        "ENVIRONMENT": "production",
+        "PORT": "8000"
+      }
+    }
+  ]
+}

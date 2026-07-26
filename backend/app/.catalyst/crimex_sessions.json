@@ -1,0 +1,33 @@
+{
+  "1417480a-f162-4eb5-8e20-bd97e3607215": {
+    "auth_provider": "catalyst",
+    "id": "1417480a-f162-4eb5-8e20-bd97e3607215",
+    "is_active": true,
+    "role": "analyst",
+    "user": "analyst"
+  },
+  "3b9e8d63-d7f4-45e2-8211-793e0146c6e1": {
+    "id": "3b9e8d63-d7f4-45e2-8211-793e0146c6e1",
+    "role": "super_admin",
+    "user": "admin"
+  },
+  "4c1a0260-74f4-4740-be0b-66a729609d55": {
+    "id": "4c1a0260-74f4-4740-be0b-66a729609d55",
+    "role": "super_admin",
+    "user": "admin"
+  },
+  "83bc9146-c40b-42fb-af38-639df553f54f": {
+    "auth_provider": "catalyst",
+    "id": "83bc9146-c40b-42fb-af38-639df553f54f",
+    "is_active": true,
+    "role": "analyst",
+    "user": "analyst"
+  },
+  "cf60c5dc-109d-48f2-85ca-2bf9571b7de8": {
+    "auth_provider": "catalyst",
+    "id": "cf60c5dc-109d-48f2-85ca-2bf9571b7de8",
+    "is_active": true,
+    "role": "super_admin",
+    "user": "admin"
+  }
+}

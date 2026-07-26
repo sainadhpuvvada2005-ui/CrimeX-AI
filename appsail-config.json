@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "services": [
+    {
+      "name": "crimex-backend",
+      "source": "backend",
+      "type": "app",
+      "stack": "docker"
+    },
+    {
+      "name": "crimex-frontend",
+      "source": "frontend",
+      "type": "app",
+      "stack": "docker"
+    }
+  ]
+}

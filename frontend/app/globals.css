@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 214 44% 96%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+  --primary: 217 91% 43%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 29% 92%;
+  --secondary-foreground: 222 47% 11%;
+  --muted: 213 27% 90%;
+  --muted-foreground: 215 16% 35%;
+  --accent: 199 89% 48%;
+  --accent-foreground: 222 47% 11%;
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214 26% 82%;
+  --input: 214 26% 82%;
+  --ring: 217 91% 55%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 222 47% 6%;
+  --foreground: 210 40% 96%;
+  --card: 222 47% 8%;
+  --card-foreground: 210 40% 96%;
+  --popover: 222 47% 8%;
+  --popover-foreground: 210 40% 96%;
+  --primary: 213 94% 68%;
+  --primary-foreground: 222 47% 8%;
+  --secondary: 217 28% 17%;
+  --secondary-foreground: 210 40% 96%;
+  --muted: 217 28% 17%;
+  --muted-foreground: 215 20% 74%;
+  --accent: 190 95% 60%;
+  --accent-foreground: 222 47% 8%;
+  --destructive: 0 63% 55%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 217 28% 22%;
+  --input: 217 28% 22%;
+  --ring: 213 94% 68%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.18), transparent 34rem),
+    radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.16), transparent 32rem),
+    hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+.dark body {
+  background:
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.2), transparent 34rem),
+    radial-gradient(circle at bottom right, rgba(8, 145, 178, 0.14), transparent 32rem),
+    hsl(var(--background));
+}
+
+.glass-panel {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.66);
+  box-shadow: 0 24px 80px rgba(2, 6, 23, 0.16);
+  backdrop-filter: blur(18px);
+}
+
+.dark .glass-panel {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(2, 6, 23, 0.58);
+}
+

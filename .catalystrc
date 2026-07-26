@@ -1,0 +1,36 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 2
+  },
+  "actives": {
+    "project": 1,
+    "env": 2
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "55948000000017001",
+      "name": "CrimeX-AI",
+      "domain": {
+        "id": "50044318965",
+        "name": "crimex-ai-60079237781.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "50044319758",
+          "name": "Production",
+          "type": 1
+        },
+        {
+          "idx": 2,
+          "id": "60079237781",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

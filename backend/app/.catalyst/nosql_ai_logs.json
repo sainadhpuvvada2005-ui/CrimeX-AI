@@ -1,0 +1,66 @@
+[
+  {
+    "correlation_id": "779a6e75-d049-4538-a3ac-025097bc9b89",
+    "event": "http_request",
+    "id": "1e77bdc8-830c-4ffc-bfe1-dceb5d615207",
+    "method": "GET",
+    "path": "/api/v1/health",
+    "status_code": 200
+  },
+  {
+    "correlation_id": "9deeb7cb-c9e4-495c-b405-be3f04a13a58",
+    "event": "http_request",
+    "id": "e251d071-2a99-4d52-adbf-ab4bc21e18dd",
+    "method": "GET",
+    "path": "/api/v1/health",
+    "status_code": 200
+  },
+  {
+    "correlation_id": "c5a79f3c-5c69-4cb6-8001-9bbeb4347a44",
+    "event": "http_request",
+    "id": "38afa383-69dd-4fca-a6ec-c2cd8aab7c84",
+    "method": "GET",
+    "path": "/api/v1/health",
+    "status_code": 200
+  },
+  {
+    "correlation_id": "c7e9e558-0497-4f90-a1bf-d772cec6b317",
+    "event": "http_request",
+    "id": "26c712b2-71ad-4beb-85a7-a8d7afd0101c",
+    "method": "GET",
+    "path": "/api/v1/health",
+    "status_code": 200
+  },
+  {
+    "correlation_id": "01255e41-0e34-4184-9195-45690e159d0c",
+    "event": "http_request",
+    "id": "cf57cfed-e5f9-42c2-9dda-3c88979e904f",
+    "method": "GET",
+    "path": "/api/v1/health",
+    "status_code": 200
+  },
+  {
+    "correlation_id": "068cfcf9-63ff-4db6-b113-f28a88a78a9a",
+    "event": "http_request",
+    "id": "4226a3c5-3b0e-43ff-97d8-9753cb9547f5",
+    "method": "GET",
+    "path": "/docs",
+    "status_code": 200
+  },
+  {
+    "correlation_id": "8fbbbcfc-2d5c-4177-8273-308d74c0b6d2",
+    "event": "http_request",
+    "id": "b37601b2-b23f-4287-8ba7-4f51a21b620b",
+    "method": "POST",
+    "path": "/api/v1/auth/login",
+    "status_code": 200
+  },
+  {
+    "correlation_id": "3bfd76c6-74bd-40e8-9612-1e458cf2f93e",
+    "event": "http_request",
+    "id": "bdc38f16-79dc-436a-8c58-c798fa5d1691",
+    "method": "POST",
+    "path": "/api/v1/auth/refresh",
+    "status_code": 200
+  }
+]
